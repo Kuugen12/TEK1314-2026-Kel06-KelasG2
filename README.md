@@ -1,6 +1,6 @@
 # Project 
 /Kelompok-06
-  |-- docs/
+  |-- documentation/
   |   `-- design/
   |       |-- topology.png   <-- hasil export Packet Tracer
   |       `-- ip_plan.md     <-- tabel IP address
