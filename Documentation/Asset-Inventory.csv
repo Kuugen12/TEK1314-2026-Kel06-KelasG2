@@ -1,0 +1,5 @@
+Asset ID,Hostname,IP Address,OS,Role,Port Terbuka,Status,Keterangan
+AST-01,attacker-kali,192.168.6.2,Kali Linux 2026.1,Attacker Node,N/A,Active,VM VirtualBox - digunakan untuk simulasi Brute Force SSH
+AST-02,target-ssh,192.168.6.5,Ubuntu Server 22.04 LTS,Target SSH Server,22 (SSH),Active,VM VirtualBox - target utama serangan; dikonfigurasi via netplan
+AST-03,monitoring-so,192.168.6.3,Security Onion,SIEM / IDS,443 (Kibana/Sguil),Active,VM VirtualBox - mode PROMISC; merekam seluruh trafik jaringan
+AST-04,gateway,192.168.6.1,Virtual Router,Gateway,N/A,Active,VirtualBox internal network gateway
