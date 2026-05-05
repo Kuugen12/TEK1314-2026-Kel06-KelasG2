@@ -85,7 +85,7 @@ Kelompok 06 mensimulasikan serangan **Brute Force & Dictionary Attack** terhadap
 - Verifikasi bahwa serangan terekam di Security Onion (Sguil alert & Kibana log)
 
 **Artefak:**
-- [Evidence-Logs/Phase2-Attack-Proofs/](Evidence-Logs/Phase2-Attack-Proofs/) *(akan diisi)*
+- [Evidence-Logs/Phase2-Attack-Proofs/](Evidence-Logs/Phase2-Attack-Proofs/)
 
 ---
 
@@ -99,8 +99,8 @@ Kelompok 06 mensimulasikan serangan **Brute Force & Dictionary Attack** terhadap
 - Penyusunan laporan akhir NIST Standard
 
 **Artefak:**
-- [Evidence-Logs/Phase3-Defense-Logs/](Evidence-Logs/Phase3-Defense-Logs/) *(akan diisi)*
-- [Reports/Final-Report-NIST.pdf](Reports/Final-Report-NIST.pdf) *(akan diisi)*
+- [Evidence-Logs/Phase3-Defense-Logs/](Evidence-Logs/Phase3-Defense-Logs/)
+- [Reports/Final-Report-NIST.pdf](Reports/Final-Report-NIST.pdf)
 
 ---
 
