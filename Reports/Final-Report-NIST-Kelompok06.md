@@ -2,7 +2,7 @@
 ### Kelompok 06 – Kelas G2 | TEK1314 Keamanan Siber
 
 **Nama Skenario:** Remote Access Security  
-**Tanggal Laporan:** Mei 2026  
+**Tanggal Laporan:** 5 Mei 2026  
 **Disusun oleh:** Kelompok 06
 
 ---
@@ -37,13 +37,9 @@ Failed password for invalid user guest from 192.168.6.2 port 54235 ssh2
 
 Dari pola log di atas dapat diketahui bahwa penyerang mencoba berbagai nama pengguna umum secara berurutan. Hal ini merupakan ciri khas dari dictionary attack, di mana daftar username dan password yang sering digunakan orang dicoba satu per satu secara otomatis. Volume percobaan yang sangat tinggi dalam waktu singkat juga menjadi indikator utama bahwa serangan ini dilakukan oleh tool otomatis, bukan secara manual.
 
-*[Lampirkan screenshot dashboard Kibana/Sguil di sini]*
-
 ### 2.3 Analisis Paket dengan Wireshark
 
 Dari hasil capture paket menggunakan Wireshark, terlihat adanya banyak sekali paket TCP SYN yang dikirimkan dari IP 192.168.6.2 ke IP 192.168.6.5 pada port 22. Setiap koneksi diikuti dengan proses SSH handshake dan percobaan autentikasi, kemudian langsung putus dan digantikan oleh koneksi baru. Pola seperti ini tidak mungkin terjadi pada penggunaan SSH yang normal.
-
-*[Lampirkan screenshot Wireshark di sini]*
 
 ### 2.4 Kategori Insiden
 
@@ -108,8 +104,3 @@ Kedua, nonaktifkan autentikasi password pada SSH dan wajibkan penggunaan SSH key
 Ketiga, pertimbangkan untuk memindahkan port SSH dari port default 22 ke port lain yang tidak umum. Langkah ini tidak akan menghentikan penyerang yang sudah menargetkan server secara spesifik, namun dapat mengurangi jumlah serangan acak secara signifikan.
 
 Keempat, batasi IP yang diizinkan untuk melakukan koneksi SSH hanya dari jaringan yang dipercaya menggunakan aturan firewall yang spesifik.
-
----
-
-*Laporan ini disusun sebagai bagian dari Proyek PBL mata kuliah TEK1314 Keamanan Siber.*  
-*Kelompok 06 – Kelas G2 – Semester Genap 2025/2026*
