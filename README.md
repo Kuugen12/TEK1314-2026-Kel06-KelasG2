@@ -34,7 +34,7 @@ Kelompok 06 mensimulasikan serangan **Brute Force & Dictionary Attack** terhadap
 |---------------|--------------|---------------------|---------------|
 | attacker-kali | 192.168.6.2  | Kali Linux 2026.1   | Attacker Node |
 | target-ssh    | 192.168.6.5  | Ubuntu Server 22.04 | Target (SSH)  |
-| monitoring-so | 192.168.6.3  | Security Onion      | SIEM / IDS    |
+| monitoring-so |      -       | Security Onion      | SIEM / IDS    |
 | gateway       | 192.168.6.1  | Virtual Router      | Gateway       |
 
 ---
